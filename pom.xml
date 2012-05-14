@@ -25,7 +25,6 @@
     <version>2.2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
-    <description>The parent project of dubbo</description>
     <url>http://code.alibabatech.com/wiki/display/dubbo</url>
     <inceptionYear>2011</inceptionYear>
     <licenses>
@@ -56,6 +55,7 @@
         <module>dubbo-test</module>
     </modules>
     <properties>
+		<java-version>1.7</java-version>
         <!-- Common libs -->
         <spring_version>3.1.1.RELEASE</spring_version>
         <javassist_version>3.16.1-GA</javassist_version>
@@ -105,6 +105,16 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-beans</artifactId>
+                <version>${spring_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
                 <version>${spring_version}</version>
             </dependency>
             <dependency>
@@ -406,11 +416,6 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-        </repository>
-        <repository>
-            <id>springsource-repo</id>
-            <name>SpringSource Repository</name>
-            <url>http://repo.springsource.org/release</url>
         </repository>
     </repositories>
     <issueManagement>
