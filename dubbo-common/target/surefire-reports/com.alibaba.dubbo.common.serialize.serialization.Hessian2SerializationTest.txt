@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.alibaba.dubbo.common.serialize.serialization.Hessian2SerializationTest
+-------------------------------------------------------------------------------
+Tests run: 79, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.427 sec

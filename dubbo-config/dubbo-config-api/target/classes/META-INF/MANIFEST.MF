@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Built-By: Administrator
+Build-Jdk: 1.7.0_03
+Specification-Title: dubbo-config-api
+Specification-Version: 2.2.0-SNAPSHOT
+Specification-Vendor: Alibaba
+Implementation-Title: dubbo-config-api
+Implementation-Version: 2.2.0-SNAPSHOT
+Implementation-Vendor-Id: com.alibaba
+Implementation-Vendor: Alibaba
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.759" errors="0" skipped="47" tests="80" name="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\CI\JDK\jre\bin"/>
+    <property name="java.vm.version" value="22.1-b02"/>
+    <property name="user.country.format" value="CN"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="d:\Projects\dubbo\dubbo-common"/>
+    <property name="java.runtime.version" value="1.7.0_03-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\CI\JDK\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\1\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2008 R2"/>
+    <property name="classworlds.conf" value="D:\CI\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\CI\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Tools\MySQL\Server\bin;D:\CI\JDK\bin;;d:\Tools\WinMerge;C:\Program Files (x86)\QuickTime\QTSystem\;D:\Tools\SecureCRT\;D:\Tools\TortoiseSVN\bin;D:\Tools\MySQL\bin;D:\Tools\MySQL\MySQL Server 5.5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Tools\MySQL\Server\bin;D:\CI\JDK\bin;;d:\Tools\WinMerge;C:\Program Files (x86)\QuickTime\QTSystem\;D:\Tools\SecureCRT\;D:\Tools\TortoiseSVN\bin;D:\Tools\MySQL\bin;D:\Tools\MySQL\MySQL Server 5.5\bin;D:\CI\maven\\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="D:\CI\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\CI\JDK\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher deploy"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_03"/>
+    <property name="java.ext.dirs" value="D:\CI\JDK\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\CI\JDK\jre\lib\resources.jar;D:\CI\JDK\jre\lib\rt.jar;D:\CI\JDK\jre\lib\sunrsasign.jar;D:\CI\JDK\jre\lib\jsse.jar;D:\CI\JDK\jre\lib\jce.jar;D:\CI\JDK\jre\lib\charsets.jar;D:\CI\JDK\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\CI\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BizExceptionNoDefaultConstructor_WithType">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Date">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_enum">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_SPerson">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Time">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Person">
+    <skipped/>
+  </testcase>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BizExceptionNoDefaultConstructor">
+    <skipped/>
+  </testcase>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_floatArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_doubleArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.003" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_StringArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.003" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_IntegerArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.003" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_EnumArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.003" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Date_withType">
+    <skipped/>
+  </testcase>
+  <testcase time="0.004" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_longArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.004" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_intArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.004" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_shortArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.004" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_charArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.005" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_boolArray">
+    <skipped/>
+  </testcase>
+  <testcase time="0.005" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BytesRange">
+    <skipped/>
+  </testcase>
+  <testcase time="0.005" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Time_withType">
+    <skipped/>
+  </testcase>
+  <testcase time="0.006" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_ByteWrap">
+    <skipped/>
+  </testcase>
+  <testcase time="0.006" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BigInteger">
+    <skipped/>
+  </testcase>
+  <testcase time="0.006" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BigDecimal">
+    <skipped/>
+  </testcase>
+  <testcase time="0.006" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BigDecimal_withType">
+    <skipped/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BizException">
+    <skipped/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_StringSet">
+    <skipped/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_LinkedHashMap">
+    <skipped/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_SPersonList">
+    <skipped/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_SPersonSet">
+    <skipped/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_IntSPersonMap">
+    <skipped/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_StringSPersonMap">
+    <skipped/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_StringSPersonListMap">
+    <skipped/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_SPersonListList">
+    <skipped/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BigPerson">
+    <skipped/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BigPerson_WithType">
+    <skipped/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_MediaContent">
+    <skipped/>
+  </testcase>
+  <testcase time="0.011" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_MediaContent_WithType">
+    <skipped/>
+  </testcase>
+  <testcase time="0.011" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_MultiObject">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_MultiObject_WithType">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_LoopReference">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_URL_mutable_withType">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_PersonList">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_PersonSet">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_IntPersonMap">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_StringPersonMap">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_StringPersonListMap">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_PersonListList">
+    <skipped/>
+  </testcase>
+  <testcase time="0.221" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Person_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Bool"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Byte"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Short"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Integer"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Long"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Float"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Double"/>
+  <testcase time="0.003" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Bytes"/>
+  <testcase time="0.181" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_MediaContent_WithType_badStream"/>
+  <testcase time="0.003" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Bool_Multi"/>
+  <testcase time="0.014" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_Byte_Multi"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_UtfString"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_boolArray_withType"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_charArray_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_shortArray_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_intArray_withType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_longArray_withType"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_floatArray_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_doubleArray_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_StringArray_withType"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_IntegerArray_withType"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_EnumArray_withType"/>
+  <testcase time="0.03" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_SPerson_withType"/>
+  <testcase time="0.046" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BizException_WithType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_enum_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_ByteWrap_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_LongWrap"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_LongWrap_withType"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_BigInteger_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_StringList_asListReturn"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_StringArrayList"/>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.JsonSerializationTest" name="test_MediaContent_badStream"/>
+</testsuite>
