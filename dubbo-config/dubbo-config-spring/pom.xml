@@ -38,6 +38,10 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 		</dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+            </dependency>		
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo-registry-default</artifactId>
