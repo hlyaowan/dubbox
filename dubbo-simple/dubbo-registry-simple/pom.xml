@@ -36,7 +36,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
-			<artifactId>jetty</artifactId>
+			<artifactId>jetty-server</artifactId>
 		</dependency>
 	</dependencies>
 	<build>

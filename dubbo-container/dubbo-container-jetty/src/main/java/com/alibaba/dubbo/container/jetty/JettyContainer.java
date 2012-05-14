@@ -15,12 +15,12 @@
  */
 package com.alibaba.dubbo.container.jetty;
 
-import org.mortbay.jetty.Handler;
-import org.mortbay.jetty.Server;
-import org.mortbay.jetty.nio.SelectChannelConnector;
-import org.mortbay.jetty.servlet.FilterHolder;
-import org.mortbay.jetty.servlet.ServletHandler;
-import org.mortbay.jetty.servlet.ServletHolder;
+import org.eclipse.jetty.server.Handler;
+import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.server.nio.SelectChannelConnector;
+import org.eclipse.jetty.servlet.FilterHolder;
+import org.eclipse.jetty.servlet.ServletHandler;
+import org.eclipse.jetty.servlet.ServletHolder;
 
 import com.alibaba.dubbo.common.logger.Logger;
 import com.alibaba.dubbo.common.logger.LoggerFactory;
@@ -70,10 +70,9 @@ public class JettyContainer implements Container {
         ServletHolder pageHolder = handler.addServletWithMapping(PageServlet.class, "/*");
         pageHolder.setInitParameter("pages", ConfigUtils.getProperty(JETTY_PAGES));
         pageHolder.setInitOrder(2);
-        
         Server server = new Server();
         server.addConnector(connector);
-        server.addHandler(handler);
+        server.setHandler(handler);
         try {
             server.start();
         } catch (Exception e) {
