@@ -33,8 +33,8 @@ public class JSONTest extends TestCase
 		StringWriter writer = new StringWriter();
 		JSON.json(e, writer);
 		String json = writer.getBuffer().toString();
-		System.out.println(json);
-		// Assert.assertEquals("{\"code\":\"001\",\"message\":\"AAAAAAAA\"}", json);
+		System.out.println("json:" + json);
+//		Assert.assertEquals("{\"code\":\"001\",\"message\":\"AAAAAAAA\"}", json);
 		
 		StringReader reader = new StringReader(json);
 		MyException result = JSON.parse(reader, MyException.class);

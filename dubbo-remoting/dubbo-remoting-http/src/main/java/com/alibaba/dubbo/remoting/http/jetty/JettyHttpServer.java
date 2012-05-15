@@ -15,16 +15,18 @@
  */
 package com.alibaba.dubbo.remoting.http.jetty;
 
+
 import java.io.IOException;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.mortbay.jetty.Server;
-import org.mortbay.jetty.handler.AbstractHandler;
-import org.mortbay.jetty.nio.SelectChannelConnector;
-import org.mortbay.thread.QueuedThreadPool;
+import org.eclipse.jetty.server.Request;
+import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.server.handler.AbstractHandler;
+import org.eclipse.jetty.server.nio.SelectChannelConnector;
+import org.eclipse.jetty.util.thread.QueuedThreadPool;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.common.URL;
@@ -58,12 +60,15 @@ public class JettyHttpServer extends AbstractHttpServer {
         server = new Server();
         server.setThreadPool(threadPool);
         server.addConnector(connector);
-        server.addHandler(new AbstractHandler() {
-            public void handle(String target, HttpServletRequest request,
-                               HttpServletResponse response, int dispatch) throws IOException,
-                    ServletException {
-                handler.handle(request, response);
-            }
+        server.setHandler(new AbstractHandler() {
+        	
+            @Override
+			public void handle(String target, Request req,
+					HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
+					throws IOException, ServletException {
+				handler.handle(httpServletRequest, httpServletResponse);
+				
+			}
         });
         
         try {

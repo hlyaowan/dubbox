@@ -60,9 +60,9 @@
         <spring_version>3.1.1.RELEASE</spring_version>
         <javassist_version>3.16.1-GA</javassist_version>
         <netty_version>3.2.7.Final</netty_version>
-        <mina_version>2.0.4</mina_version>
+        <mina_version>1.1.7</mina_version>
         <grizzly_version>2.2.7</grizzly_version>
-        <httpclient_version>4.1.2</httpclient_version>
+        <httpclient_version>4.1.3</httpclient_version>
         <hessian_lite_version>3.2.1-fixed</hessian_lite_version>
         <xstream_version>1.4.2</xstream_version>
         <fastjson_version>1.1.19</fastjson_version>
@@ -72,7 +72,7 @@
         <jedis_version>2.0.0</jedis_version>
         <jfreechart_version>1.0.14</jfreechart_version>
         <hessian_version>4.0.7</hessian_version>
-        <servlet_version>3.0</servlet_version>
+        <servlet_spec_version>1.0.1.Final</servlet_spec_version>
         <jetty_version>8.1.3.v20120416</jetty_version>
         <validation_version>1.0.0.GA</validation_version>
         <hibernate_validator_version>4.3.0.Final</hibernate_validator_version>
@@ -88,6 +88,7 @@
         <junit_version>4.10</junit_version>
         <easymock_version>3.1</easymock_version>
         <jmockit_version>0.999.15</jmockit_version>
+        <aopalliance_version>1.0</aopalliance_version>
         <!-- Build args -->
         <!--<argline>-server -Xms64m -Xmx64m -XX:PermSize=64m -XX:MaxPermSize=64m</argline>-->
         <skip_maven_deploy>false</skip_maven_deploy>
@@ -188,9 +189,9 @@
                 <version>${hessian_version}</version>
             </dependency>
             <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>servlet-api</artifactId>
-                <version>${servlet_version}</version>
+                <groupId>org.jboss.spec.javax.servlet</groupId>
+                <artifactId>jboss-servlet-api_3.0_spec</artifactId>
+                <version>${servlet_spec_version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
@@ -278,6 +279,12 @@
                 <groupId>org.easymock</groupId>
                 <artifactId>easymockclassextension</artifactId>
                 <version>${easymock_version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>aopalliance</groupId>
+                <artifactId>aopalliance</artifactId>
+                <version>${aopalliance_version}</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
