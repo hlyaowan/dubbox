@@ -56,6 +56,7 @@
 		<module>dubbo</module>
 	</modules>
 	<properties>
+		<java-version>1.7</java-version>
         <!-- Common libs -->
         <spring_version>3.1.1.RELEASE</spring_version>
         <javassist_version>3.16.1-GA</javassist_version>
@@ -72,8 +73,8 @@
         <jedis_version>2.0.0</jedis_version>
         <jfreechart_version>1.0.14</jfreechart_version>
         <hessian_version>4.0.7</hessian_version>
-        <servlet_version>2.5</servlet_version>
-        <jetty_version>6.1.26</jetty_version>
+        <servlet_version>3.0</servlet_version>
+        <jetty_version>8.1.3.v20120416</jetty_version>
         <validation_version>1.0.0.GA</validation_version>
         <hibernate_validator_version>4.3.0.Final</hibernate_validator_version>
         <jcache_version>0.5</jcache_version>
@@ -88,10 +89,10 @@
         <junit_version>4.10</junit_version>
         <easymock_version>3.1</easymock_version>
         <jmockit_version>0.999.15</jmockit_version>
-		<!-- Build args -->
-		<!--<argline>-server -Xms64m -Xmx64m -XX:PermSize=64m -XX:MaxPermSize=64m</argline>-->
-		<skip_maven_deploy>false</skip_maven_deploy>
-		<updateReleaseInfo>true</updateReleaseInfo>
+        <!-- Build args -->
+        <!--<argline>-server -Xms64m -Xmx64m -XX:PermSize=64m -XX:MaxPermSize=64m</argline>-->
+        <skip_maven_deploy>false</skip_maven_deploy>
+        <updateReleaseInfo>true</updateReleaseInfo>
         <project.build.sourceEncoding>${file_encoding}</project.build.sourceEncoding>
 	</properties>
 	<dependencyManagement>
