@@ -749,6 +749,7 @@ public abstract class Builder<T> implements GenericDataFlags
 		}
 		catch(Throwable e)
 		{
+			e.printStackTrace();
 			throw new RuntimeException(e.getMessage(), e);
 		}
 		finally
