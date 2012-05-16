@@ -1,22 +1,22 @@
 [INFO] Scanning for projects...
-[INFO] snapshot com.alibaba:dubbo-parent:2.2.0-SNAPSHOT: checking for updates from b2b-internal-snapshots
-[INFO] snapshot com.alibaba:dubbo-parent:2.2.0-SNAPSHOT: checking for updates from b2b-shared-repository
+[INFO] snapshot com.alibaba:dubbo-parent:2.3.0-SNAPSHOT: checking for updates from b2b-internal-snapshots
+[INFO] snapshot com.alibaba:dubbo-parent:2.3.0-SNAPSHOT: checking for updates from b2b-shared-repository
 [INFO] ------------------------------------------------------------------------
 [INFO] Building dubbo-demo-provider
 [INFO]    task-segment: [dependency:tree]
 [INFO] ------------------------------------------------------------------------
-[INFO] snapshot com.alibaba:dubbo-demo:2.2.0-SNAPSHOT: checking for updates from b2b-internal-snapshots
-[INFO] snapshot com.alibaba:dubbo-demo:2.2.0-SNAPSHOT: checking for updates from b2b-shared-repository
-[INFO] snapshot com.alibaba:dubbo-demo:2.2.0-SNAPSHOT: checking for updates from opensesame.snapshots
-[INFO] snapshot com.alibaba:dubbo:2.2.0-SNAPSHOT: checking for updates from b2b-internal-snapshots
-[INFO] snapshot com.alibaba:dubbo:2.2.0-SNAPSHOT: checking for updates from b2b-shared-repository
-[INFO] snapshot com.alibaba:dubbo:2.2.0-SNAPSHOT: checking for updates from opensesame.snapshots
+[INFO] snapshot com.alibaba:dubbo-demo:2.3.0-SNAPSHOT: checking for updates from b2b-internal-snapshots
+[INFO] snapshot com.alibaba:dubbo-demo:2.3.0-SNAPSHOT: checking for updates from b2b-shared-repository
+[INFO] snapshot com.alibaba:dubbo-demo:2.3.0-SNAPSHOT: checking for updates from opensesame.snapshots
+[INFO] snapshot com.alibaba:dubbo:2.3.0-SNAPSHOT: checking for updates from b2b-internal-snapshots
+[INFO] snapshot com.alibaba:dubbo:2.3.0-SNAPSHOT: checking for updates from b2b-shared-repository
+[INFO] snapshot com.alibaba:dubbo:2.3.0-SNAPSHOT: checking for updates from opensesame.snapshots
 [WARNING] *** CHECKSUM FAILED - Checksum failed on download: local = '42e7df2282f92e69fae6722b3a179c8395ef107b'; remote = 'c37760db920c78e5f91fbcf7505e74b5eeebbf14' - RETRYING
 [WARNING] *** CHECKSUM FAILED - Checksum failed on download: local = '42e7df2282f92e69fae6722b3a179c8395ef107b'; remote = 'c37760db920c78e5f91fbcf7505e74b5eeebbf14' - IGNORING
 [INFO] [dependency:tree {execution: default-cli}]
-[INFO] com.alibaba:dubbo-demo-provider:jar:2.2.0-SNAPSHOT
-[INFO] +- com.alibaba:dubbo-demo:jar:2.2.0-SNAPSHOT:compile
-[INFO] +- com.alibaba:dubbo:jar:2.2.0-SNAPSHOT:compile
+[INFO] com.alibaba:dubbo-demo-provider:jar:2.3.0-SNAPSHOT
+[INFO] +- com.alibaba:dubbo-demo:jar:2.3.0-SNAPSHOT:compile
+[INFO] +- com.alibaba:dubbo:jar:2.3.0-SNAPSHOT:compile
 [INFO] |  +- log4j:log4j:jar:1.2.16:compile
 [INFO] |  +- org.javassist:javassist:jar:3.15.0-GA:compile
 [INFO] |  +- org.springframework:spring:jar:2.5.6.SEC03:compile

@@ -24,6 +24,7 @@ import java.util.concurrent.ConcurrentMap;
 import org.I0Itec.zkclient.IZkChildListener;
 import org.I0Itec.zkclient.IZkStateListener;
 import org.I0Itec.zkclient.ZkClient;
+import org.I0Itec.zkclient.exception.ZkNoNodeException;
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.Watcher.Event.KeeperState;
 
@@ -189,9 +190,13 @@ public class ZookeeperRegistry extends FailbackRegistry {
         try {
             List<String> providers = new ArrayList<String>();
             for (String path : toCategoriesPath(url)) {
-                List<String> children = zkClient.getChildren(path);
-                if (children != null) {
-                    providers.addAll(children);
+                try {
+                    List<String> children = zkClient.getChildren(path);
+                    if (children != null) {
+                        providers.addAll(children);
+                    }
+                } catch (ZkNoNodeException e) {
+                    // ignore
                 }
             }
             return toUrls(url, providers);
